@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Desert" tilewidth="32" tileheight="32">
+  <tile id="0">
+   <image width="32" height="32" source="SFMLGame/images/spikes.png"/>
+  </tile>
+  <tile id="1">
+   <image width="32" height="32" source="SFMLGame/images/spikes_lwall.png"/>
+  </tile>
+  <tile id="2">
+   <image width="32" height="32" source="SFMLGame/images/spikes_roof.png"/>
+  </tile>
+  <tile id="3">
+   <image width="32" height="32" source="SFMLGame/images/spikes_rwall.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="5" name="platform" tilewidth="32" tileheight="32">
+  <image source="SFMLGame/images/goodly-2x.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzty7ENgDAMRcE0iIYWmACYANh/M9xjRUlBxZ30Guu7FAAAAAAAAAAAAAAAAAAAAHiboiG5j8mOb83R0tja+Z/tqduivbGj8z/bU3dGV2N353+2BwAAAAAAAAAAAAAAAAAAAAAAAAAAAP7hATf9CQ0=
+  </data>
+ </layer>
+</map>
